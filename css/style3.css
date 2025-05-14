@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(253, 243, 231);
+    
+}
+
+/* header */
+
+header {
+    background: #301f0d;
+}
+
+.nav-1{
+    position: relative;
+    flex-wrap: wrap;
+    flex: content;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.logo{
+    padding: 11px;
+    text-align: left;
+}
+.logo img {
+    width: 50%;
+}
+
+.nav-text {
+    font-size: 20px;
+    padding-top: 25px;
+}
+.nav-text a {
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+/*main*/
+.main-contaner h3{
+    text-align: center;
+}
+
+.name{
+    width: 230px;
+    height: 30px;
+    border-radius: 13px;
+}
+
+.email{
+    width: 230px;
+    height: 30px;
+    border-radius: 13px;
+}
+.number{
+    width: 230px;
+    height: 30px;
+    border-radius: 13px;
+}
+.title{
+    width: 230px;
+    height: 30px;
+    border-radius: 13px;
+}
+
+.pages{
+    width: 230px;
+    height: 30px;
+    border-radius: 13px;
+}
+
+.line1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    max-width: 1200px;
+    margin: 60px auto 0;
+}
+
+.line2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    max-width: 900px;
+    margin: 40px auto 0;
+}
+
+.about{
+    width: 630px;
+    height: 200px;
+    border-radius: 13px;
+    justify-content: center;
+    margin: 40px auto 0;
+    display: flex;
+}
+
+
+
+.main-contaner button{
+    height:50px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    padding-left: 43px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    background: #301f0d;
+    color: white;
+}
+
+.footer-container {
+    padding-top: 25px;
+    position: relative;
+    flex-wrap: wrap;
+    flex: content;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    margin-top: 70px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+.footer img {
+    width: 62%;
+}
+
+
+.time{
+    margin-left: 19%;
+    text-align: end;
+}

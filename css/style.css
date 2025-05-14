@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+    background-color: rgb(253, 243, 231);
+}
+
+/* header */
+
+header {
+    background: #301f0d;
+}
+
+.nav{
+    position: relative;
+    flex-wrap: wrap;
+    flex: content;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    padding: 11px;
+    text-align: left;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.nav-text {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.nav-text a {
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+/* main */
+
+.block-container {
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+.block-container img {
+    width:  100px;
+    height: 162px;
+}
+
+.block {
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 20px;
+    padding: 25px;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.block-text {
+    padding-left: 35px;
+    font-size: 14px;
+    display: grid;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 230px;
+    word-break: normal; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+}
+
+/* footer */
+
+footer {
+    background: #301f0d;
+    color: white;
+}
+
+.footer-container {
+    padding-top: 25px;
+    position: relative;
+    flex-wrap: wrap;
+    flex: content;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    margin-top: 70px;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+.footer img {
+    width: 62%;
+}
+
+
+.time{
+    margin-left: 19%;
+    text-align: end;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="shortcut icon" href="http://books.kg/demo/wp-content/uploads/cropped-1.jpg">
+    <title>Раритет</title>
+</head>
+<body>
+    <header class="header">
+        <section class="section-header">
+            <div class="nav">
+                <div class="nav-1">
+                    <div class="logo">
+                        <img src="http://books.kg/demo/wp-content/uploads/raritet.png" alt="">
+                    </div>
+                   
+                    <div class="nav-text">
+                        <a href="./index.html" >Наши книги</a>
+                        <a href="./index2.html">О нас</a>
+                        <a href="./index3.html" style="border-bottom: 2px white solid;">Для авторов</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="main">
+        <section class="main-contaner">
+            <h3>Если Вы являетесь автором и хотите издать свою книгу в нашем издательстве, заполните форму ниже. Сюжет напишите коротко. <br>Если он нас заинтерисует, мы с вами свяжемся и попросим отправить файл вашей работы.</h3>
+            <form action="./bd.php" method="post" class="form-publ">
+                <div class="form-col">
+                    <div class="line1"> 
+                        <input type="text" class="name" id="name" name="name" placeholder="Имя">
+                        <input type="text" class="email" id="email" name="email" placeholder="Почта">
+                        <input type="text" class="number" id="number" name="number" placeholder="Номер телефона">
+                    </div>  
+
+                    <div class="line2">
+                        <input type="text" class="title" id="title" name="title" placeholder="Название">
+                        <input type="text" class="pages" id="pages" name="pages" placeholder="Количество страниц">
+                    </div>
+                    
+                    <input type="text" class="about" id="about" name="about" placeholder="О книге">
+
+                </div>
+                <button class="btn" type="submit">Отправить идею</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer-container">
+            <div class="logo-footer">
+                <img src="http://books.kg/demo/wp-content/uploads/raritet.png" alt="">
+                
+            </div>
+            <div class="adress">
+                <p>ул. Пушкина, 78</p>
+                <p>ТРЦ ГУМ "Чынар"</p>
+                <p>ТРЦ "Томми Молл"</p>
+                <p>пр. Чуй, 271</p>
+                <p>ТРЦ "Азия Молл"</p>
+                <p>ТРЦ "Детский мир"</p>
+                <p>ТРЦ "Вефа"</p>
+            </div>
+            <div class="time">
+                <p>9.00-18.00</p>
+                <p>10.00-22.00</p>
+                <p>10.00-22.00</p>
+                <p>9.00-19.00</p>
+                <p>10.00-22.00</p>
+                <p>10.00-20.00</p>
+                <p>10.00-22.00</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
